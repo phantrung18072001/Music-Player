@@ -1,4 +1,3 @@
-
 /* 
     - Render ra danh sach bai hat OK
     - Handle keo xuong thi cd size giam dan {lay vi tri} OK

@@ -121,7 +121,8 @@ const app = {
         }
         const list = $$('.song');
         list.forEach((song) => {
-            if (song.dataset.index === this.curIndex) {
+            console.log(song.dataset.index,this.curIndex);
+            if (song.dataset.index == this.curIndex) {
                 song.classList.add('active');
             }
         });
